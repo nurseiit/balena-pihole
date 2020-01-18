@@ -11,7 +11,7 @@ WORKDIR /usr/src/build
 
 RUN cmake .. && make
 
-FROM pihole/pihole:latest
+FROM nurseiit/pi-hole:v0.1
 
 WORKDIR /usr/src
 
